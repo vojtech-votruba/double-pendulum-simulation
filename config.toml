@@ -1,0 +1,24 @@
+[settings]
+collisions = false
+max_iter = false
+integration = "runge-kutta"
+
+[graphics]
+screen_width = 720
+fps = 60
+all_energy = false
+
+[fixed_params]
+gravity = 10
+mass1 = 150
+mass2 = 50
+length1 = 3
+length2 = 1
+
+[initial]
+varphi1 = -0.5
+varphi2 = 0.5
+varphi1_dot = 0.5
+varphi2_dot = 0
+varphi1_ddot = 0
+varphi2_ddot = 0
